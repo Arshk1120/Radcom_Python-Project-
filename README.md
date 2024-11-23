@@ -9,6 +9,7 @@ Create a Python project that will use Robot Framework OR playwright automation t
 2) Connect to Grafana: Login
    
 2.1) Configure the datasource connection
+
 2.2) Create a dashboard with Timeseries Visualization, which will select data from the table you just created and insert data into
 
 3) Validate that the data you see is correct.
