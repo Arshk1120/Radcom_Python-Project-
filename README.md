@@ -12,8 +12,3 @@ Create a Python project that will use Robot Framework OR playwright automation t
 3) Validate that the data you see is correct.
 IDEA: take a screenshot and compare it to a known screenshot 
 
-BONUS:
-Wrap your automation code into a container (+ helm chart)
-Expose an API using fastapi + pydantic, e.g. /test, which will run the test
-Expose API /results, which will give the test results
-Run the Robot Framework test from VS Code for fast iterations
