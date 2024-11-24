@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.9.20 on linux)" generated="20241122 01:47:01.803" rpa="false" schemaversion="3">
+<suite id="s1" name="Grafana" source="/home/arshdeep/k8s-automation/tests/grafana.robot">
+<test id="s1-t1" name="Configure Grafana" line="5">
+<kw name="Login To Grafana" library="grafana_api">
+<status status="PASS" starttime="20241122 01:47:01.863" endtime="20241122 01:47:01.932"/>
+</kw>
+<kw name="Configure Datasource" library="grafana_api">
+<status status="PASS" starttime="20241122 01:47:01.934" endtime="20241122 01:47:01.984"/>
+</kw>
+<kw name="Create Dashboard" library="grafana_api">
+<msg timestamp="20241122 01:47:31.992" level="FAIL">ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))</msg>
+<status status="FAIL" starttime="20241122 01:47:01.986" endtime="20241122 01:47:31.994"/>
+</kw>
+<status status="FAIL" starttime="20241122 01:47:01.862" endtime="20241122 01:47:31.995">ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))</status>
+</test>
+<status status="FAIL" starttime="20241122 01:47:01.804" endtime="20241122 01:47:31.996"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Grafana">Grafana</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
